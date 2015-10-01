@@ -14,8 +14,8 @@ A simple example of how to request a ticket from Qlik Sense Proxy Service API us
 
 This document goes through the process of creating ticketing code in **Java**.
 
- **Attention!**
-		The example described below is an **EXAMPLE**. It is not production code. It is a proof of concept to show how to acquire a ticket from the QPS ReST API using Java. If you are intending to use this code for a production deployment, make sure to do the following:
+**Attention!**
+The example described below is an **EXAMPLE**. It is not production code. It is a proof of concept to show how to acquire a ticket from the QPS ReST API using Java. If you are intending to use this code for a production deployment, make sure to do the following:
 
 * Identify the appropriate certificates to use to connect to the QPS API and to secure communication between Qlik Sense ui and the browser.
 * Identify the context where the ticket request code will be used. One example may be integration with Liferay portals using Apache or Tomcat.
